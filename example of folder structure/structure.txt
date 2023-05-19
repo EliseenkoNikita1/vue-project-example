@@ -1,0 +1,102 @@
+├───.idea
+│   └───inspectionProfiles
+├───mjml
+│   ├───html
+│   │   ├───repairer
+│   │   └───supplier
+│   ├───repairer
+│   │   └───html
+│   └───supplier
+│       └───html
+├───public
+│   └───img
+│       └───avatars
+├───src
+│   ├───assets
+│   │   ├───audio
+│   │   ├───img
+│   │   └───logos
+│   ├───components
+│   │   ├───auth
+│   │   ├───brands
+│   │   ├───common
+│   │   ├───image-lightbox
+│   │   ├───order
+│   │   │   ├───models
+│   │   │   ├───repairer
+│   │   │   └───supplier
+│   │   ├───rfq
+│   │   │   └───models
+│   │   ├───rfqPriced
+│   │   ├───rs-tabs
+│   │   │   └───components
+│   │   ├───tiptap
+│   │   ├───utility
+│   │   │   └───search-filter
+│   │   └───vue-good-wizard
+│   ├───mixins
+│   ├───router
+│   ├───store
+│   │   └───modules
+│   │       ├───auth
+│   │       ├───brandList
+│   │       ├───currentCompany
+│   │       ├───currentUser
+│   │       ├───partList
+│   │       ├───repairer
+│   │       │   ├───credit
+│   │       │   ├───order
+│   │       │   ├───RFQ
+│   │       │   └───supplier
+│   │       ├───supplier
+│   │       │   ├───credit
+│   │       │   ├───customers
+│   │       │   ├───order
+│   │       │   └───RFQ
+│   │       ├───updater
+│   │       └───users
+│   ├───styles
+│   │   ├───base
+│   │   ├───dashboard
+│   │   ├───login
+│   │   ├───modal
+│   │   ├───repairer
+│   │   │   └───invite
+│   │   └───supplier
+│   └───views
+│       ├───auth
+│       │   └───register
+│       │       ├───repairer
+│       │       └───supplier
+│       ├───home
+│       ├───modal
+│       ├───repairers
+│       │   ├───credit-management
+│       │   │   └───credit-view
+│       │   ├───dashboard
+│       │   │   └───dashboard-blocks
+│       │   ├───invite
+│       │   ├───part-order
+│       │   │   └───parts-order-view
+│       │   ├───rfq
+│       │   │   ├───rfq-add
+│       │   │   ├───rfq-order
+│       │   │   └───rfq-view
+│       │   ├───rfq-view
+│       │   └───suppliers
+│       ├───settings
+│       │   └───settings
+│       │       └───integrations
+│       └───suppliers
+│           ├───credit
+│           │   ├───credit-view
+│           │   └───credits
+│           ├───customer
+│           │   └───customer-view
+│           ├───dashboard
+│           │   └───dashboard-block
+│           ├───parts-orders
+│           └───rfq
+│               └───rfq-view
+└───tests
+    └───unit
